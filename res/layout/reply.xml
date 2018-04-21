@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#DDD"
+	    android:id="@+id/Reply_parent"
+	    android:padding="5dp" >
+	
+	    <TextView
+	        android:id="@+id/textTopic"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:text="題目"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/content_post"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/textTopic"
+	        android:layout_above="@+id/button_post"
+	        android:ems="10"
+	        android:gravity="left|top"
+	        android:hint="是咁的......"
+	        android:inputType="textMultiLine" >
+			
+	    </EditText>
+	    
+	    <RelativeLayout
+	        android:id="@+id/button_post"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:background="#DDD"
+		    android:focusableInTouchMode="false"
+		    android:focusable="false" >
+		        <ImageView 
+		            android:id="@+id/icon"
+		            android:src="@drawable/icon"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_alignParentLeft="true"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:clickable="true"/>
+		        <ImageView 
+		            android:id="@+id/word"
+		            android:src="@drawable/word"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_toRightOf="@+id/icon"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:focusableInTouchMode="false"
+					android:focusable="false"/>
+		        
+		        <ImageView 
+		            android:id="@+id/size"
+		            android:src="@drawable/size"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_toRightOf="@+id/word"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:clickable="true"/>
+		        
+		        <ImageView 
+		            android:id="@+id/colour"
+		            android:background="#000000"
+		            android:layout_width="25dp"
+		            android:layout_height="25dp"
+		            android:layout_toRightOf="@+id/size"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="20dp"
+		            android:clickable="true"/>
+		        <ImageView 
+		            android:id="@+id/img"
+		            android:src="@drawable/img"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_toRightOf="@+id/colour"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:clickable="true"/>
+		        <ImageView 
+		            android:id="@+id/internet"
+		            android:src="@drawable/internet"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_toRightOf="@+id/img"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:clickable="true"/>
+	    </RelativeLayout>
+	</RelativeLayout>
+</FrameLayout>

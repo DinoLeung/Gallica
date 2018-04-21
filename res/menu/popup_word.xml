@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusableInTouchMode="false"
+	android:focusable="false" >
+ 
+    <item
+        android:id="@+id/item_bold"
+        android:showAsAction="ifRoom|withText"
+        android:title="bold"
+        android:visible="true"
+        android:focusableInTouchMode="false"
+		android:focusable="false"/>
+    <item
+        android:id="@+id/item_italic"
+        android:showAsAction="ifRoom|withText"
+        android:title="italic"
+        android:visible="true"
+        android:focusableInTouchMode="false"
+		android:focusable="false"/>
+    <item
+        android:id="@+id/item_underline"
+        android:showAsAction="ifRoom|withText"
+        android:title="underline"
+        android:visible="true"
+        android:focusableInTouchMode="false"
+		android:focusable="false"/>
+    <item
+        android:id="@+id/item_strike"
+        android:showAsAction="ifRoom|withText"
+        android:title="strike"
+        android:visible="true"
+        android:focusableInTouchMode="false"
+		android:focusable="false"/>
+ 
+</menu>

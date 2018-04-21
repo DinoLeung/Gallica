@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gallica+</string>
+    <string name="app_ver">1.65</string>
+    <string name="action_profile">帳戶</string>
+    <string name="action_newPost">發表</string>
+    <string name="action_history">歷史</string>
+    <string name="action_lm">腳毛</string>
+	<string name="action_lm_op">起底</string>
+	<string name="action_favourite">賣飛佛</string>
+    <string name="action_blist">封鎖名單</string>
+    <string name="action_settings">設定</string>
+    <string name="action_loadpost">轉緊台</string>
+    <string name="action_loadingpost">等陣...</string>
+    <string name="action_finish">熄燈</string>
+    <string name="traffic">膠登汽車台交通直擊</string>
+    <string name="action_youtube">膠登音樂臺</string>
+    <string name="action_refresh">重新整理</string>
+    <string name="elv_undo">Undo</string>
+    <string name="elv_undo_all">Undo All</string>
+    <string name="elv_item_deleted">Item deleted</string>
+    <string name="elv_n_items_deleted">%1$s items deleted</string>
+    <string name="action_please_add">請填入 userid</string>
+    <string name="action_add">新增</string>
+    <string name="insert_dialog">對白</string>
+    <string name="insert_icon">插入 Icon</string>
+    <string name="insert_format">格式</string>
+    <string name="insert_file">載入圖片</string>
+
+    <string name="alert_delete_title">刪除呢項記錄???</string>
+    <string name="alert_delete_cancel">你就輸了!</string>
+    <string name="alert_delete_ok">吹咩?!</string>
+    
+    <string name="action_lm_opuser">請輸入userid</string>
+    <string name="balert_delete_title">認真，解 Block 呢位友仔???</string>
+    <string name="balert_delete_cancel">你就輸了!</string>
+    <string name="balert_delete_ok">吹咩?!</string>
+    <string name="action_badd">封殺</string>
+    <string name="action_cadd">搜查</string>
+    
+    <string-array name="updateInterval">
+        <item name="1000">Every 1 second</item>
+        <item name="5000">Every 5 seconds</item>
+        <item name="30000">Every 30 seconds</item>
+        <item name="60000">Every 1 minute</item>
+        <item name="300000">Every 5 minutes</item>
+    </string-array>
+    <string-array name="updateIntervalValues">
+        <item name="1000">1000</item>
+        <item name="5000">5000</item>
+        <item name="30000">30000</item>
+        <item name="60000">60000</item>
+        <item name="300000">300000</item>
+    </string-array>
+    <string-array name="emailDevelop">
+        <item name="galdencommonsense@gmail.com">galdencommonsense@gmail.com</item>
+        <item name="gaogaigargalden@gmail.com">gaogaigargalden@gmail.com</item>
+    </string-array>
+    <string-array name="dialog_array">
+        <item>屌講呢D</item>
+        <item>不要說了</item>
+        <item>推佢上報</item>
+        <item>你都戇撚鳩</item>
+        <item>Confused</item>
+        <item>屌我唔想扑野啊</item>
+        <item>食屎啦你</item>
+        <item>中國的會爆炸</item>
+        <item>港女聽錢濕晒</item>
+        <item>Fuck Yeah</item>
+        <item>Forever Alone</item>
+        <item>死牙籤仔</item>
+        <item>Dont Say</item>
+        <item>辯論金字塔</item>
+        <item>靜雞雞</item>
+        <item>腦魔yup</item>
+        <item>腦魔sosad</item>
+    </string-array>
+   
+    <string-array name="channel_array">
+        <item>吹水臺</item>
+        <item>娛樂臺</item>
+        <item>時事臺</item>
+        <item>財經臺</item>
+        <item>遊戲臺</item>
+        <item>App臺</item>
+        <item>科技臺</item>
+        
+        <item>電話臺</item>
+        <item>體育臺</item>
+        <item>感情臺</item>
+        <item>講故臺</item>
+        <item>飲食臺</item>
+        <item>蕃茄臺</item>
+        <item>旅遊臺</item>
+        <item>動漫臺</item>
+        <item>玩具臺</item>
+        <item>音樂臺</item>
+        <item>影視臺</item>
+        <item>攝影臺</item>
+        <item>學術臺</item>
+        <item>汽車臺</item>
+        <item>站務臺</item>
+        <item>活動臺</item>
+        <item>創意臺</item>
+    </string-array>
+     <string-array name="dialog_array_link">
+        <item>[img]http://static1.wikia.nocookie.net/__cb20131015004822/evchk/images/c/cb/Dew_chatting_this_1080p.png[/img]</item>
+        <item>[img]http://i.imgur.com/Q7huVNZ.png[/img]</item>
+        <item>[img]http://static4.wikia.nocookie.net/__cb20130725050923/evchk/images/7/7a/8uXq-1-.gif[/img]</item>  
+    </string-array>
+    <string-array name="specials_array">
+        <item>@string/traffic</item>
+        <item>@string/action_youtube</item>
+    </string-array>
+    <string-array name="ident_array">
+        <item>bw</item>
+        <item>et</item>
+        <item>ca</item>
+        <item>fn</item>
+        <item>gm</item>
+        <item>ap</item>
+        <item>it</item>
+       
+        <item>mp</item>
+        <item>sp</item>
+        <item>lv</item>
+        <item>sy</item>
+        <item>ed</item>
+        <item>tm</item>
+        <item>tr</item>
+        <item>an</item>
+        <item>to</item>
+        <item>mu</item>
+        <item>vi</item>
+        <item>dc</item>
+        <item>st</item>
+        <item>ts</item>
+        <item>mb</item>
+        <item>ac</item>
+        <item>ep</item>
+    </string-array>
+      <string-array name="colour_array">
+        <item>#1f7dd6</item>
+        <item>#c41fd6</item>
+        <item>#1dc38c</item>
+        <item>#ceb512</item>
+        <item>#0081c2</item>
+        <item>#1fa2d6</item>        
+ 		<item>#d6711f</item>
+ 		
+        <item>#1dadc3</item>
+        <item>#52ae19</item>
+        <item>#db1f54</item>
+        <item>#8d3e0c</item>
+        <item>#b76c52</item>
+        <item>#c12a10</item>
+        <item>#19a7ae</item>
+        <item>#dc1e80</item>
+        <item>#0e19b9</item>
+        <item>#80007f</item>
+        <item>#438c12</item>
+        <item>#5089ce</item>
+        <item>#7b1af9</item>
+        <item>#6f8695</item>
+        <item>#a036c9</item>
+        <item>#c41c62</item>
+        <item>#bf531d</item>
+    </string-array>
+    <string-array name="hkgicon_array">
+        <item>[369]</item>
+        <item>#adore#</item>
+        <item>[sosad]</item>
+        <item>#yup#</item>
+        <item>O:-)</item>
+        <item>:-[</item>
+        <item>#ass#</item>
+        <item>[banghead]</item>
+        <item>[yipes]</item>
+        <item>#kill#</item>
+        <item>[photo]</item>
+        <item>[bomb]</item>
+        <item>[bouncer]</item>
+        <item>[bouncy]</item>
+        <item>#bye#</item>
+        <item>[censored]</item>
+        <item>#cn#</item>
+        <item>:o)</item>
+        <item>:~(</item>
+        <item>xx(</item>
+        <item>:-]</item>
+        <item>#ng#</item>
+        <item>#fire#</item>
+        <item>[flowerface]</item>
+        <item>:-(</item>
+        <item>fuck</item>
+        <item>\@_@</item>
+        <item>#good#</item>
+        <item>#hehe#</item>
+        <item>#hoho#</item>
+        <item>#kill2#</item>
+        <item>^3^</item>
+        <item>#love#</item>
+        <item>#no#</item>
+        <item>[offtopic]</item>
+        <item>:O</item>
+        <item>[shocking]</item>
+        <item>[slick]</item>
+        <item>:)</item>
+        <item>:D</item>
+        <item>#oh#</item>
+        <item>:P</item>
+        <item>;-)</item>
+        <item>\???</item>
+        <item>\?_?</item>
+        <item>Z_Z</item>
+    </string-array>
+    <string-array name="hkgicons_html_array">
+        <item>https://hkgalden.com/face/hkg/369.gif</item>
+        <item>https://hkgalden.com/face/hkg/adore.gif</item>
+        <item>https://hkgalden.com/face/hkg/sosad.gif</item>
+        <item>https://hkgalden.com/face/hkg/agree.gif</item>
+        <item>https://hkgalden.com/face/hkg/angel.gif</item>
+        <item>https://hkgalden.com/face/hkg/angry.gif</item>
+        <item>https://hkgalden.com/face/hkg/ass.gif</item>
+        <item>https://hkgalden.com/face/hkg/banghead.gif</item>
+        <item>https://hkgalden.com/face/hkg/yipes.gif</item>
+        <item>https://hkgalden.com/face/hkg/kill.gif</item>
+        <item>https://hkgalden.com/face/hkg/photo.gif</item>
+        <item>https://hkgalden.com/face/hkg/bomb.gif</item>
+        <item>https://hkgalden.com/face/hkg/bouncer.gif</item>
+        <item>https://hkgalden.com/face/hkg/bouncy.gif</item>
+        <item>https://hkgalden.com/face/hkg/bye.gif</item>
+        <item>https://hkgalden.com/face/hkg/censored.gif</item>
+        <item>https://hkgalden.com/face/hkg/chicken.gif</item>
+        <item>https://hkgalden.com/face/hkg/clown.gif</item>
+        <item>https://hkgalden.com/face/hkg/cry.gif</item>
+        <item>https://hkgalden.com/face/hkg/dead.gif</item>
+        <item>https://hkgalden.com/face/hkg/devil.gif</item>
+        <item>https://hkgalden.com/face/hkg/donno.gif</item>
+        <item>https://hkgalden.com/face/hkg/fire.gif</item>
+        <item>https://hkgalden.com/face/hkg/flowerface.gif</item>
+        <item>https://hkgalden.com/face/hkg/frown.gif</item>
+        <item>https://hkgalden.com/face/hkg/fuck.gif</item>
+        <item>https://hkgalden.com/face/hkg/@.gif</item>
+        <item>https://hkgalden.com/face/hkg/good.gif</item>
+        <item>https://hkgalden.com/face/hkg/hehe.gif</item>
+        <item>https://hkgalden.com/face/hkg/hoho.gif</item>
+        <item>https://hkgalden.com/face/hkg/kill2.gif</item>
+        <item>https://hkgalden.com/face/hkg/kiss.gif</item>
+        <item>https://hkgalden.com/face/hkg/love.gif</item>
+        <item>https://hkgalden.com/face/hkg/no.gif</item>
+        <item>https://hkgalden.com/face/hkg/offtopic.gif</item>
+        <item>https://hkgalden.com/face/hkg/oh.gif</item>
+        <item>https://hkgalden.com/face/hkg/shocking.gif</item>
+        <item>https://hkgalden.com/face/hkg/slick.gif</item>
+        <item>https://hkgalden.com/face/hkg/smile.gif</item>
+        <item>https://hkgalden.com/face/hkg/biggrin.gif</item>
+        <item>https://hkgalden.com/face/hkg/surprise.gif</item>
+        <item>https://hkgalden.com/face/hkg/tongue.gif</item>
+        <item>https://hkgalden.com/face/hkg/wink.gif</item>
+        <item>https://hkgalden.com/face/hkg/wonder2.gif</item>
+        <item>https://hkgalden.com/face/hkg/wonder.gif</item>
+        <item>https://hkgalden.com/face/hkg/z.gif</item>
+    </string-array>
+
+    <string name="subject">膠App 你有say</string>
+    <string name="message">是咁的</string>
+    <string name="action_firstp">睇首頁</string>
+    <string name="action_lastp">睇尾頁</string>
+    <string name="action_selectp">快速轉頁</string>
+    <string name="action_finish2">回到母台</string>
+    <string name="action_reply">回應話題</string>
+    <string name="action_favour">加我飛佛</string>
+    <string name="action_onelm">一鍵留名</string>
+    <string name="action_good">正評</string>
+    <string name="action_bad">負評</string>
+    <string name="action_poll">一人一票</string>
+    <string name="action_share">公諸同好</string>
+    <string name="action_sell">分享此App</string>
+    <string name="action_block">已封鎖會員</string>
+    <string name="action_quote">引用</string>
+    <string name="text_token">User Token</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_save">Save</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_select">Select Color</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_upload">Upload</string>
+    <string name="no_color">Default</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="Gallica Settings" >
+      
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="textonly"
+            android:summary="關注流量較少嘅你"
+            android:title="純文字瀏覽模式" />
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="tm"
+            android:summary="關注愛食蕃茄嘅你"
+            android:title="蕃茄吹水模式" />
+
+
+        
+        
+    </PreferenceCategory>
+               
+   <!--   <PreferenceCategory
+        android:key="second_category"
+        android:title="Second Category" >
+        <EditTextPreference
+            android:defaultValue="Default welcome message"
+            android:dialogMessage="Provide a message"
+            android:dialogTitle="Welcome Message"
+            android:key="welcome_message"
+            android:summary="Define the Welcome message to be shown"
+            android:title="Welcome Message" />
+    </PreferenceCategory>-->
+    
+	 <PreferenceCategory
+        android:key="second_category"
+        android:title="Gallica Theme" >
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="dark"
+            android:summary="關注眼睛疲倦嘅你"
+            android:title="暗黑瀏覽模式" />
+    </PreferenceCategory>
+               
+	 <!-- <PreferenceCategory
+        android:key="third_category"
+        android:title="動感瀏覽"
+        android:enabled="false" >
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="dark"
+            android:summary="關注唔做運動嘅你"
+            android:title="動感瀏覽模式" />
+	</PreferenceCategory>-->
+	
+    <PreferenceCategory
+        android:key="one_key_lm"
+        android:title="一鍵留名" >
+        <EditTextPreference
+            android:defaultValue="一鍵留名 - By Gallica"
+            android:dialogTitle="一鍵留名"
+            android:key="lm_message"
+            android:summary="自定一鍵留名內容"
+            android:title="一鍵留名"
+            android:enabled="true" />
+    </PreferenceCategory>
+    
+	<PreferenceCategory
+		android:key="iconPlus"
+		android:title="HKGalden Icon+" >
+	   	<Preference
+		android:title="更新Database">
+		<intent
+			android:targetPackage="com.commonsense.hkgaldenPaid"
+			android:targetClass="com.commonsense.hkgalden.async.IconPlusDownload">
+			<extra android:name="forceUpdate" android:value="false" />
+		</intent>
+		</Preference>
+		<Preference
+		android:title="強制更新Database">
+		<intent
+			android:targetPackage="com.commonsense.hkgaldenPaid"
+			android:targetClass="com.commonsense.hkgalden.async.IconPlusDownload">
+			<extra android:name="forceUpdate" android:value="true" />
+		</intent>
+		</Preference>
+	</PreferenceCategory>
+
+    
+    <PreferenceCategory
+        android:key="info"
+        android:title="關於" >
+        <EditTextPreference
+            android:title="Gallica"
+            android:summary="@string/app_ver"
+            android:enabled="false" />
+        
+    </PreferenceCategory>
+
+    
+    
+</PreferenceScreen>

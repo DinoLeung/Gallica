@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_refresh"/>
+    <item
+        android:id="@+id/action_newPost"
+        android:icon="@drawable/ic_action_content_new"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_newPost"/>
+     <item
+        android:id="@+id/action_favourite"
+        android:icon="@drawable/ic_menu_star"
+        android:title="@string/action_favourite"/>
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_history"/>
+    <item
+        android:id="@+id/action_lm"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_lm"/>
+    <item
+        android:id="@+id/action_lm_op"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_lm_op"/>
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_profile"/>
+    <item
+        android:id="@+id/action_blist"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_blist"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_sell"/>
+
+</menu>

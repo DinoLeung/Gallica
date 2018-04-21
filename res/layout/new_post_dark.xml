@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/newPost_parent"
+	    android:background="#000"
+	    android:padding="5dp" >
+	
+	    <Spinner
+	        android:id="@+id/spinner_post"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true" />
+	
+	    <EditText
+	        android:id="@+id/topic_post"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/spinner_post"
+	        android:ems="10"
+	        android:hint="主題">
+	        <requestFocus />
+	    </EditText>
+	    
+	    <EditText
+	        android:id="@+id/content_post"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/topic_post"
+	        android:layout_above="@+id/button_post"
+	        android:ems="10"
+	        android:gravity="left|top"
+	        android:hint="是咁的......"
+	        android:inputType="textMultiLine" >
+	
+	    </EditText>
+	    
+	     <RelativeLayout
+	        android:id="@+id/button_post"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:background="#000"
+		    android:focusableInTouchMode="false"
+		    android:focusable="false" >
+		        <ImageView 
+		            android:id="@+id/icon"
+		            android:src="@drawable/icon_d"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_alignParentLeft="true"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:clickable="true"/>
+		        <ImageView 
+		            android:id="@+id/word"
+		            android:src="@drawable/word_d"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_toRightOf="@+id/icon"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:focusableInTouchMode="false"
+					android:focusable="false"/>
+		        
+		        <ImageView 
+		            android:id="@+id/size"
+		            android:src="@drawable/size_d"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_toRightOf="@+id/word"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:clickable="true"/>
+		        
+		        <ImageView 
+		            android:id="@+id/colour"
+		            android:background="#CFCFCC"
+		            android:layout_width="25dp"
+		            android:layout_height="25dp"
+		            android:layout_toRightOf="@+id/size"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="20dp"
+		            android:clickable="true"/>
+		        <ImageView 
+		            android:id="@+id/img"
+		            android:src="@drawable/img_d"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_toRightOf="@+id/colour"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:clickable="true"/>
+		        <ImageView 
+		            android:id="@+id/internet"
+		            android:src="@drawable/internet_d"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_toRightOf="@+id/img"
+		            android:layout_centerVertical="true"
+		            android:layout_marginRight="10dp"
+		            android:clickable="true"/>
+	    </RelativeLayout>
+	</RelativeLayout>
+</FrameLayout>

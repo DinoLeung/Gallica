@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" xmlns:app="http://schemas.android.com/apk/res/com.commonsense.hkgaldenPaid">
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:background="#101010" >
+	
+	    <!-- MAIN PART -->
+	
+	    <LinearLayout
+	        android:id="@+id/sub_content_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/page_bar"
+	        android:layout_above="@+id/ad_view"
+	        android:layout_weight="1"
+	        android:background="#101010"
+	        android:orientation="vertical" >
+	
+	        <!-- <WebView
+	            android:id="@+id/content"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_alignParentTop="true"
+	            android:background="#101010"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:isScrollContainer="true" /> -->
+	        <com.viewpagerindicator.TitlePageIndicator
+		        android:id="@+id/indicator"
+		        android:padding="10dip"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent"
+		        android:background="#000000"
+		        app:footerLineHeight="1dp"
+		        app:footerIndicatorHeight="3dp"
+		        app:footerIndicatorStyle="triangle"
+		        app:footerColor="#000000"
+		        app:selectedBold="true"
+		        />
+		    <android.support.v4.view.ViewPager
+		        android:id="@+id/pager"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/ad_view"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="horizontal"
+	        android:layout_centerHorizontal="true" >
+	    </LinearLayout>
+	</RelativeLayout>
+</FrameLayout>

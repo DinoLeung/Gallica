@@ -1,0 +1,383 @@
+#
+# generated on 2014/07/06 11:24:20
+#
+# --table-start--
+dataClass=com.commonsense.hkgalden.model.BlockedUser
+tableName=buser
+# --table-fields-start--
+# --field-start--
+fieldName=userid
+columnName=u_id
+id=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.commonsense.hkgalden.model.Channel
+tableName=channel
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=ident
+columnName=ident
+# --field-end--
+# --field-start--
+fieldName=startcol
+columnName=startcol
+# --field-end--
+# --field-start--
+fieldName=endcol
+columnName=endcol
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.commonsense.hkgalden.model.Favourite
+tableName=favourite
+# --table-fields-start--
+# --field-start--
+fieldName=t_id
+columnName=t_id
+id=true
+# --field-end--
+# --field-start--
+fieldName=date
+columnName=date
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.commonsense.hkgalden.model.History
+tableName=history
+# --table-fields-start--
+# --field-start--
+fieldName=t_id
+columnName=t_id
+id=true
+# --field-end--
+# --field-start--
+fieldName=title
+columnName=title
+# --field-end--
+# --field-start--
+fieldName=uname
+columnName=uname
+# --field-end--
+# --field-start--
+fieldName=page
+columnName=page
+# --field-end--
+# --field-start--
+fieldName=ident
+columnName=ident
+# --field-end--
+# --field-start--
+fieldName=date
+columnName=date
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.commonsense.hkgalden.model.IconPlus
+tableName=iconPlus
+# --table-fields-start--
+# --field-start--
+fieldName=iconName
+columnName=iconName
+id=true
+# --field-end--
+# --field-start--
+fieldName=ridicule
+columnName=ridicule
+# --field-end--
+# --field-start--
+fieldName=adore
+columnName=adore
+# --field-end--
+# --field-start--
+fieldName=agree
+columnName=agree
+# --field-end--
+# --field-start--
+fieldName=angel
+columnName=angel
+# --field-end--
+# --field-start--
+fieldName=angry
+columnName=angry
+# --field-end--
+# --field-start--
+fieldName=ass
+columnName=ass
+# --field-end--
+# --field-start--
+fieldName=banghead
+columnName=banghead
+# --field-end--
+# --field-start--
+fieldName=biggrin
+columnName=biggrin
+# --field-end--
+# --field-start--
+fieldName=bomb
+columnName=bomb
+# --field-end--
+# --field-start--
+fieldName=bouncer
+columnName=bouncer
+# --field-end--
+# --field-start--
+fieldName=bouncy
+columnName=bouncy
+# --field-end--
+# --field-start--
+fieldName=bye
+columnName=bye
+# --field-end--
+# --field-start--
+fieldName=censored
+columnName=censored
+# --field-end--
+# --field-start--
+fieldName=chicken
+columnName=chicken
+# --field-end--
+# --field-start--
+fieldName=clown
+columnName=clown
+# --field-end--
+# --field-start--
+fieldName=cry
+columnName=cry
+# --field-end--
+# --field-start--
+fieldName=dead
+columnName=dead
+# --field-end--
+# --field-start--
+fieldName=devil
+columnName=devil
+# --field-end--
+# --field-start--
+fieldName=donno
+columnName=donno
+# --field-end--
+# --field-start--
+fieldName=fire
+columnName=fire
+# --field-end--
+# --field-start--
+fieldName=flowerface
+columnName=flowerface
+# --field-end--
+# --field-start--
+fieldName=frown
+columnName=frown
+# --field-end--
+# --field-start--
+fieldName=fuck
+columnName=fuck
+# --field-end--
+# --field-start--
+fieldName=ghost
+columnName=ghost
+# --field-end--
+# --field-start--
+fieldName=good
+columnName=good
+# --field-end--
+# --field-start--
+fieldName=hehe
+columnName=hehe
+# --field-end--
+# --field-start--
+fieldName=hoho
+columnName=hoho
+# --field-end--
+# --field-start--
+fieldName=killleft
+columnName=killleft
+# --field-end--
+# --field-start--
+fieldName=killright
+columnName=killright
+# --field-end--
+# --field-start--
+fieldName=kiss
+columnName=kiss
+# --field-end--
+# --field-start--
+fieldName=love
+columnName=love
+# --field-end--
+# --field-start--
+fieldName=no
+columnName=no
+# --field-end--
+# --field-start--
+fieldName=offtopic
+columnName=offtopic
+# --field-end--
+# --field-start--
+fieldName=oh
+columnName=doohnno
+# --field-end--
+# --field-start--
+fieldName=photo
+columnName=photo
+# --field-end--
+# --field-start--
+fieldName=shocking
+columnName=shocking
+# --field-end--
+# --field-start--
+fieldName=slick
+columnName=slick
+# --field-end--
+# --field-start--
+fieldName=smile
+columnName=smile
+# --field-end--
+# --field-start--
+fieldName=sosad
+columnName=sosad
+# --field-end--
+# --field-start--
+fieldName=surprise
+columnName=surprise
+# --field-end--
+# --field-start--
+fieldName=tongue
+columnName=tongue
+# --field-end--
+# --field-start--
+fieldName=wink
+columnName=wink
+# --field-end--
+# --field-start--
+fieldName=wonder
+columnName=wonder
+# --field-end--
+# --field-start--
+fieldName=would
+columnName=would
+# --field-end--
+# --field-start--
+fieldName=yipes
+columnName=yipes
+# --field-end--
+# --field-start--
+fieldName=z
+columnName=z
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.commonsense.hkgalden.model.Lm
+tableName=lm
+# --table-fields-start--
+# --field-start--
+fieldName=t_id
+columnName=t_id
+id=true
+# --field-end--
+# --field-start--
+fieldName=date
+columnName=date
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.commonsense.hkgalden.model.Posts
+tableName=posts
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=topicId
+columnName=topic_id
+# --field-end--
+# --field-start--
+fieldName=ltime
+columnName=ltime
+# --field-end--
+# --field-start--
+fieldName=author
+columnName=author
+# --field-end--
+# --field-start--
+fieldName=topicTitle
+columnName=topicTitle
+# --field-end--
+# --field-start--
+fieldName=count
+columnName=count
+# --field-end--
+# --field-start--
+fieldName=rate
+columnName=rate
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.commonsense.hkgalden.model.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=userid
+columnName=userid
+# --field-end--
+# --field-start--
+fieldName=userToken
+columnName=user_token
+# --field-end--
+# --field-start--
+fieldName=username
+columnName=username
+# --field-end--
+# --field-start--
+fieldName=gender
+columnName=gender
+# --field-end--
+# --field-start--
+fieldName=avatar
+columnName=avatar
+# --field-end--
+# --field-start--
+fieldName=avatarUrl
+columnName=avatar_url
+# --field-end--
+# --field-start--
+fieldName=badge
+columnName=badge
+# --field-end--
+# --field-start--
+fieldName=blocked
+columnName=blocked
+# --field-end--
+# --field-start--
+fieldName=subscribed
+columnName=subscribed
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

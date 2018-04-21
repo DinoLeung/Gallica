@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <Spinner
+        android:id="@+id/collection"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:spinnerMode="dialog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/backspace"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@+id/linebreak"
+        android:src="@drawable/backspace_d"
+        android:layout_marginRight="10dp" />
+    
+    <ImageView
+        android:id="@+id/linebreak"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/linebreak_d" />
+
+    <GridView
+        android:id="@+id/gridIcon"
+        android:layout_below="@+id/collection"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:numColumns="8"
+        android:stretchMode="columnWidth"
+        android:clickable="true" />
+</RelativeLayout>
